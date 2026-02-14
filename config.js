@@ -8,14 +8,14 @@ const CONFIG = {
     valentineName: "Rose",
 
     // The title that appears in the browser tab
-    // You can use emojis! 💝 💖 💗 💓 💞 💕
+    // You can use emojis! 🌹🦩
     pageTitle: "Joyeuse saint Valentin! Voudrez tu être ma valentine officieuse en distanciel? ",
 
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
     floatingEmojis: {
-        hearts: ['❤️', '💖', '💝', '💗', '💓'],  // Heart emojis
-        bears: ['🧸', '🐻']                       // Cute bear emojis
+        hearts: ['🍑', '💗', '🌹'],  // Heart emojis
+        bears: ['🦩', '🦕']                       // Cute bear emojis
     },
 
     // Questions and answers
@@ -23,28 +23,28 @@ const CONFIG = {
     questions: {
         first: {
             text: "Est ce que tu veux retrouver l'épanouissement ?",                                    // First interaction
-            yesBtn: "Oui",                                             // Text for "Yes" button
+            yesBtn: "peut être connard",                                             // Text for "Yes" button
             noBtn: "No",                                               // Text for "No" button
             secretAnswer: "jamais, y'a personne qui m'épanoui mieux que toi et tu manque !"           // Secret hover message
         },
         second: {
             text: "Est ce que ma Brune dame folle d'une beauté extracadabrante accepterai de diner se soir en distanciel avec moi ? ",                          // For the love meter
-            startText: "Tellement que oui !! ",                                   // Text before the percentage
+            startText: "Tellement que oui et claque moi les fesses !! ",                                   // Text before the percentage
             nextBtn: "Je préfère te voir enfin envrai j'en ai marre de te ressentir seulement dans mes pensé "                                         // Text for the next button
         },
         third: {
-            texte: "Miss Rose (Poort-bientôt si cupidon le veux) voudrais t'elle voir lol 2 et puis par hasard épistolaire m'accompagner dans des une nuit sur un même lit pour pouvoir juste se regarder et se sentir mêlant les souvenir d'un passer à risque mais de tension a un futur excitant" , // The big question!
-            yesBtn: "ENFIN",                                             // Text for "Yes" button
-            noBtn: "Tu peux me matter toute la nuit avec un accord signé "                                                 // Text for "No" button
+            texte: "Miss Rose (Poort-bientôt si cupidon le veux) voudrais t'elle voir lol 2 et puis par hasard finir dans une nuit ensemble pour pouvoir juste se regarder mêlant les souvenir d'un passer à risque mais de futur tension d'excitant" , // The big question!
+            yesBtn: "ENFIN ca fzit 5 ans j'attendais ça mon dima ",                                             // Text for "Yes" button
+            noBtn: "Les seul yeux et ressenti qui pourront toujours me frôler c'est toi, et dormir sur tes deux coussins sur moi."                                                 // Text for "No" button
         }
     },
 
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "WOOOOW t'est aller aussi loins c'est qu'on est fait pour être ensemble ",  // Shows when they go past 5000%
-        high: "Bravo t'a fini le test on se revoit se revoit se soir chérie faut que tu prenne de de la farine au magasin avant de rentrer",              // Shows when they go past 1000%
-        normal: "on se connaît ?"                           // Shows when they go past 100%
+        extreme: "WOOOOW Je savais pas t'est aller aussi loins c'est qu'on est fait pour être ensemble ",  // Shows when they go past 5000%
+        high: "Bravo t'a fini le test on se revoit se soir chérie faut que tu prenne de de la farine au magasin avant de rentrer",              // Shows when they go past 1000%
+        normal: " T'imagine pas le temps pour réalisé cette merde un site entier donc un peu de soutient serai dans la normalité des chose! "                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"

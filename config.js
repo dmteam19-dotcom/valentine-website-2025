@@ -35,7 +35,7 @@ const CONFIG = {
         third: {
             texte: "Miss Rose (Poort-bientôt si cupidon le veux) voudrais t'elle voir lol 2 et puis par hasard finir dans une nuit ensemble pour pouvoir juste se regarder mêlant les souvenir d'un passer à risque mais de futur tension d'excitant" , // The big question!
             yesBtn: "ENFIN ca fzit 5 ans j'attendais ça mon dima ",                                             // Text for "Yes" button
-            noBtn: "Les seul yeux et ressenti qui pourront toujours me frôler c'est toi, et dormir sur tes deux coussins sur moi."                                                 // Text for "No" button
+            noBtn: "Les seuls oeils et seul ressenti qui pourront toujours me frôler c'est toi, et t'es le seul qui a accès complet à mes pieds."                                                 // Text for "No" button
         }
     },
 

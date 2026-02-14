@@ -5,11 +5,11 @@
 const CONFIG = {
     // Your Valentine's name that will appear in the title
     // Example: "Jade", "Sarah", "Mike"
-    valentineName: "Jade",
+    valentineName: "Rose",
 
     // The title that appears in the browser tab
     // You can use emojis! 💝 💖 💗 💓 💞 💕
-    pageTitle: "Will You Be My Valentine? 💝",
+    pageTitle: "Joyeuse saint Valentin! Voudrez tu être ma valentine officieuse en distanciel? ",
 
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
@@ -22,36 +22,36 @@ const CONFIG = {
     // Customize each question and its possible responses
     questions: {
         first: {
-            text: "Do you like me?",                                    // First interaction
-            yesBtn: "Yes",                                             // Text for "Yes" button
+            text: "Est ce que tu veux retrouver l'épanouissement ?",                                    // First interaction
+            yesBtn: "Oui",                                             // Text for "Yes" button
             noBtn: "No",                                               // Text for "No" button
-            secretAnswer: "I don't like you, I love you! ❤️"           // Secret hover message
+            secretAnswer: "jamais, y'a personne qui m'épanoui mieux que toi et tu manque !"           // Secret hover message
         },
         second: {
-            text: "How much do you love me?",                          // For the love meter
-            startText: "This much!",                                   // Text before the percentage
-            nextBtn: "Next ❤️"                                         // Text for the next button
+            text: "Est ce que ma Brune dame folle d'une beauté extracadabrante accepterai de diner se soir en distanciel avec moi ? ",                          // For the love meter
+            startText: "Tellement que oui !! ",                                   // Text before the percentage
+            nextBtn: "Je préfère te voir enfin envrai j'en ai marre de te ressentir seulement dans mes pensé "                                         // Text for the next button
         },
         third: {
-            text: "Will you be my Valentine on February 14th, 2025? 🌹", // The big question!
-            yesBtn: "Yes!",                                             // Text for "Yes" button
-            noBtn: "No"                                                 // Text for "No" button
+            texte: "Miss Rose (Poort-bientôt si cupidon le veux) voudrais t'elle voir lol 2 et puis par hasard épistolaire m'accompagner dans des une nuit sur un même lit pour pouvoir juste se regarder et se sentir mêlant les souvenir d'un passer à risque mais de tension a un futur excitant" , // The big question!
+            yesBtn: "ENFIN",                                             // Text for "Yes" button
+            noBtn: "Tu peux me matter toute la nuit avec un accord signé "                                                 // Text for "No" button
         }
     },
 
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "WOOOOW You love me that much?? 🥰🚀💝",  // Shows when they go past 5000%
-        high: "To infinity and beyond! 🚀💝",              // Shows when they go past 1000%
-        normal: "And beyond! 🥰"                           // Shows when they go past 100%
+        extreme: "WOOOOW t'est aller aussi loins c'est qu'on est fait pour être ensemble ",  // Shows when they go past 5000%
+        high: "Bravo t'a fini le test on se revoit se revoit se soir chérie faut que tu prenne de de la farine au magasin avant de rentrer",              // Shows when they go past 1000%
+        normal: "on se connaît ?"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "Yay! I'm the luckiest person in the world! 🎉💝💖💝💓",
-        message: "Now come get your gift, a big warm hug and a huge kiss!",
-        emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
+        title: "J'en ai marre de courir dans tes pensées laisse moi une pause stp je sois essoufflé (jamais autre part) ",
+        message: "Même si on se voit pas la rose éternel que j'ai l'habitude de te passer sera en ligne cette fois, par ma promesse que c'était éternel" ,
+        emojis: "Est ce que c'est un erreur c'est con et complètement inapproprié et faut que j'aille me faire foutre ? Potentiellement mais la risque ou l'erreur de te/se voir voudra toujours tout le mal de ce monde"  // These will bounce around
     },
 
     // Color scheme for the website
